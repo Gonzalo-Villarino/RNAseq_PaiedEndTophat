@@ -5,7 +5,7 @@ open(FILE,"/home3/gonzalo/Angelina/00_cleaned.reads/file.names.txt") or die;
 while(<FILE>){
 	chomp;
 	my $name = $_;
-	$name =~ s/\.R1\.fq.gz//;
+	$name =~ s/\.R1\.fq.gz//;  # $name =~ s/_R.*//g;  this will also delete R1_001.fastq.gz & R2_001.fastq.gz ending, but if samples names have R will also modify them (not good)
 	$name =~ s/\.R2\.fq.gz//;
 	open(OUT,">$name.sh") or die;
 	print OUT "#!/bin/bash\n";
@@ -14,3 +14,7 @@ while(<FILE>){
 	close OUT;
 }
 close FILE;
+
+
+
+######################
