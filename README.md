@@ -3,17 +3,17 @@
 ### 
 ##################################################################################
 Left reads:
-          Input     :    614678
-           Mapped   :    572661 (93.2% of input)
-            of these:     28511 ( 5.0%) have multiple alignments (138 have >20)
+          Input     :  51998389
+           Mapped   :  47931833 (92.2% of input)
+            of these:   1974291 ( 4.1%) have multiple alignments (10134 have >20)
 Right reads:
-          Input     :    614681
-           Mapped   :    545789 (88.8% of input)
-            of these:     27070 ( 5.0%) have multiple alignments (138 have >20)
-91.0% overall read mapping rate.
+          Input     :  51998389
+           Mapped   :  45074130 (86.7% of input)
+            of these:   1827386 ( 4.1%) have multiple alignments (10134 have >20)
+89.4% overall read mapping rate.
 
-Aligned pairs:    532696
-     of these:     26171 ( 4.9%) have multiple alignments
-                    6460 ( 1.2%) are discordant alignments
-85.6% concordant pair alignment rate.
+Aligned pairs:  43690353
+     of these:   1718624 ( 3.9%) have multiple alignments
+                  593379 ( 1.4%) are discordant alignments
+82.9% concordant pair alignment rate.
 ##################################################################################
