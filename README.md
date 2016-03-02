@@ -1,7 +1,7 @@
 #### RNAseq_PaiedEndTophat
 
 Left reads:
-          Input     :  51,998,389
+          Input     :  51,998,389 
            Mapped   :  47,931,833 (92.2% of input)
             of these:   1,974,291 (4.1%) have multiple alignments (10,134 have >20)
 Right reads:
@@ -15,3 +15,5 @@ Aligned pairs:  43,690,353
                   
 82.9% concordant pair alignment rate.
 
+
+####  Input: 51,998,389 pair
